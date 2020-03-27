@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="Lat3_5b.php" method="post">
+        <p>Order CD, amount:
+            <input type="text" name="cd_order" value="<?php echo $_COOKIE['cd_order']; ?>" size="2" maxlength="2">
+        </p>
+        <p>Order DVD, amount:
+            <input type="text" name="dvd_order" value="<?php echo $_COOKIE['dvd_order']; ?>" size="2" maxlength="2">
+        </p>
+        <input type="submit" value="Add To Cart" name="submit">
+    </form>
+</body>
+
+</html>
